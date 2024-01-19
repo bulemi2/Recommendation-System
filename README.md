@@ -9,14 +9,12 @@
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Data Understanding](#Data-Understanding)
-- [Data Preparation](#Data-Preparation)
-- [Exploratory Data Analysis](#Exploratory-Data-Analysis)
-- [Content-Based Recommendation](#Content-Based-Recommendation)
-- [Collaborative Filtering](#Collaborative-Filtering)
-- [Model-Based Recommendation](#model-based-recommendation)
+- [Data Understanding](#data-understanding)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Modeling](#modeling)
+- [Conclusion](#conclusion)
 - [Contributing](#contributing)
-- [Authors](#Authors)
+- [Authors](#authors)
 
 ## Introduction
 
@@ -27,12 +25,10 @@ This Movie Recommendation System is a Python-based project that provides movie r
 - Data Understanding
 - Data Preparation
 - Exploratory Data Analysis
-- Content-Based Recommendation
-- Collaborative Filtering
-- Model-Based Recommendation
+- Modeling (Recommendation System generation)
 - User-friendly interface
 - Easy-to-use API
-- Customizable recommendation parameters
+
 
 
 ## Getting Started
@@ -68,19 +64,24 @@ The dataset used in this project contains 100,836 ratings and 3,683 tag applicat
 
 ## Exploratory Data Analysis
 - Explored different movie genres and their counts.
-- Visualized the top 5 movie genres and their percentage ratios.
+- Visualized the Top 5 movie genres and their percentage ratios.
 - Analyzed top-watched movies.
 - Analyzed top-rated movies.
 - Visualized the rating distribution.
 
-## Content-Based Recommendation
+## Modeling
+We utilized the following approaches: 
+- Content-Based Recommendation
 Our content-based recommendation system uses movie genres and user preferences to suggest similar movies. It calculates the TF-IDF (Term Frequency-Inverse Document Frequency) matrix and uses the sigmoid kernel for similarity scores.
 
-## Collaborative Filtering
+- Collaborative Filtering
 The collaborative filtering technique provides movie recommendations based on user-user similarity. It uses a user-item matrix and computes the similarity between users. You can choose between user-based and item-based collaborative filtering.
 
-## Model-Based Recommendation
+- Model-Based(SVD) Recommendation
 Our model-based recommendation uses matrix factorization and the SVD algorithm to predict movie ratings for users. It fine-tunes the model parameters for optimal performance.
+
+## Conclusion
+Model-based collaborative filtering techniques offer a powerful and scalable approach to recommendation systems, leveraging advanced algorithms and machine learning models. Their ability to handle sparsity, recognize complex patterns, and scale with growing datasets makes them valuable for large-scale applications.
 
 ## Contributing
 We welcome contributions from the community. If you'd like to contribute to this project, please follow these steps:
