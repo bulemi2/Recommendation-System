@@ -65,8 +65,6 @@ Change to the project directory:
 The dataset used in this project contains 100,836 ratings and 3,683 tag applications across 9,742 movies. It includes information about movies, user ratings, and tags. Key data files include:
 - `movies.csv`: Contains movie information (movieId, title, genres).
 - `ratings.csv`: Contains user ratings (userId, movieId, rating).
-- `tags.csv`: Contains user-generated metadata about movies (userId, movieId, tag).
-- `links.csv`: Provides identifiers for linking to external movie-related sources (imdbId, tmdbId).
 
 ## Data Preparation
 - Irrelevant columns, such as `timestamp`, were removed from the dataset.
