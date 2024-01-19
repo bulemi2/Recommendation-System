@@ -66,11 +66,6 @@ The dataset used in this project contains 100,836 ratings and 3,683 tag applicat
 - `movies.csv`: Contains movie information (movieId, title, genres).
 - `ratings.csv`: Contains user ratings (userId, movieId, rating).
 
-## Data Preparation
-- Irrelevant columns, such as `timestamp`, were removed from the dataset.
-- Missing values were checked and handled (if any).
-- Duplicate values were checked and removed (if any).
-
 ## Exploratory Data Analysis
 - Explored different movie genres and their counts.
 - Visualized the top 5 movie genres and their percentage ratios.
