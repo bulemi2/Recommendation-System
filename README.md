@@ -101,9 +101,7 @@ We welcome contributions from the community. If you'd like to contribute to this
 4. Create a pull request.
 
 ## Authors
-- [Joy Ogutu](https://github.com/Ogutu01)
+
 - [David Ambani](https://github.com/bulemi2)
-- [Brian Chacha](https://github.com/MarwaBrian)
-- [Dennis Kimani](https://github.com/dennismathu)
-- [Amina Hagi](https://github.com/aminahagi)
-- [Sadi Kiri](https://github.com/Gsothr1234)
+
+
